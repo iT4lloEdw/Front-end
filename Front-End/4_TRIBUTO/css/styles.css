@@ -1,20 +1,29 @@
 html {
     font-family: Helvetica;
-    background-color: #606060; 
     color: #322886;
 }
 
 .container {
-    max-width: 1100px;
-    background-color: #ebebeb;
+   
+    
     position: relative;
-    margin: 50px auto;
+    margin: 5px auto;
     padding: 20px 50px;
 
 }
 
 .bold {
+    color:  white;
     font-weight: bold;
+    background-color:  #322886;
+    
+}
+
+.bold:hover {
+    background-color: white;
+    color: #322886;
+    transition:  0.2s ease;
+    
 }
 
 /* header */
@@ -23,11 +32,13 @@ html {
 }
 
 .main-title {
-    font-size: 50px;
+    font-size: 80px;
     font-family: Thunder;
 }
 
+
 .main-paragraph {
+    font-weight: bold;
     font-style: italic;
 }
 
@@ -35,9 +46,14 @@ html {
 .featured-image {
     text-align: center;
     margin-top: 30px;
-    border: 3px solid #322886;
+
 }
 
+.imagem {
+    border: 10px solid #322886;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
 /* Biografia */
 .biography-container {
     padding: 25px 0;
@@ -46,20 +62,36 @@ html {
     border-bottom: 1px dashed black;
 }
 
+.integrantes {
+    font-family: italic;
+    margin: 10px;
+}
+
 /* Quotes */
 .quotes-container {
     background-color: #322886;
     padding: 30px;
     color: white;
+    border-radius: 5px;
+    transition:  0.4s ease;
+    
+}
+
+.quotes-container:hover {
+    background: white;
+    color: #322886;
+    transition:  0.4s ease;
 }
 
 .quotes-container blockquote {
     font-weight: bold;
     font-size: 30px;
+    
 }
 
 .quotes-container p {
     font-style: italic;
+    
 }
 
 /* Curiosidades */
@@ -71,6 +103,7 @@ html {
 }
 
 .curiosities-container li {
+    margin: 10px;
     height: 30px;
 }
 
@@ -78,4 +111,20 @@ html {
 .img-bold {
     font-weight: bold;
     text-align: center;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+    
+}
+ .imagem-publico{
+    margin: 10px;
+ }
+
+.portoalegre {
+    
+    border-radius: 10px;
+}
+
+a:hover {
+    color: red;
 }
