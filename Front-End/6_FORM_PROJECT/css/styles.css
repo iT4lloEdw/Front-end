@@ -1,0 +1,180 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+body {
+    background-color: #fff;
+
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    color: #fff;
+}
+
+p, 
+label {
+    color: #fff;
+    
+   
+}
+
+
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin: 0 auto;
+    
+}
+
+
+/* Especificando o input que quero alterar */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    
+    width: 400px;
+    
+    
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+/* page header */
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #1B3B6F
+    
+}
+
+.header h3 {
+    color: #fff;
+    margin-top: 0;
+}
+
+/* form container */
+.form-container {
+    background-color: #065A82;
+    width: 60%;
+    /* mudar a largura com base no html, automaticamente */
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+    
+}
+
+/* form header */
+.form-header {
+    border-bottom: 4px solid #dfdfdf;
+    height: 45px;
+    
+}
+
+.form-header p {
+    color: #fff;
+    border-bottom: 4px solid #1B3B6F;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: #d80835;
+}
+
+.box-input {
+    
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: block;
+    margin: 0 30px 30px 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.optional-box p {
+    color: red;
+    text-align: center;
+    
+}
+
+
+.optional-list li {
+
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.box-input p {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: #fff;
+    color: #065A82;
+    border: 4px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    display: block;
+    margin: 0 auto;
+}
+   
+.btn-submit:hover {
+    background-color: #1B3B6F;
+    border-color: #fff;
+    color: #fff;
+   
+}
+
+.header h3 {
+    text-align: center;
+    border-left: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 2rem;
+    
+}
